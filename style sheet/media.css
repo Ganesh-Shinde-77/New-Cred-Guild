@@ -99,7 +99,7 @@
     }
 
     .container1 {
-        position: static;
+        position: relative;
     }
 
     .smallText {
