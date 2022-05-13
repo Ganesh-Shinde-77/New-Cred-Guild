@@ -1,0 +1,305 @@
+
+@media screen and (max-width: 1440px) {
+
+    .smallText {
+        width: 70vw;
+        margin: 0vh auto 0 auto;
+    }
+    
+}
+
+
+@media (max-width: 1200px) and (min-width: 900px) {
+    
+    .navbar {
+        display: flex;
+    }
+    
+    .navLogo img {
+        margin: 4vh 5vw 0 0;
+    }
+    
+}
+
+@media screen and (max-width: 1980px) and (min-width: 1024px) {
+
+    .headTextContainer {
+
+        margin: 33vh 10vw 0 0;
+
+    }
+
+    .smallText {
+
+        margin: 0 auto 0 auto;
+
+    }
+
+    .container2 {
+        margin: 7vh 0 0 0;
+    }
+
+    .smallTextContainer {
+        margin: 4vh 0 0 0;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .burger {
+        display: block;
+    }
+
+    .navbar {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 2s ease-out;
+    }
+    
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navLogo img {
+        margin: 1.5vh 0;
+    }
+    
+    .navbar ul li {
+        margin: 0;
+    }
+    
+    .navbar ul li a {
+        padding: 0 2vw;
+        text-align: center;
+    }
+    
+    .visibility {
+        display: none;
+    }
+    
+    .headTextContainer {
+        margin: 38vh 0 0 0;
+    }
+    
+    .h-nav {
+        height: 8vh;
+    }
+    
+    .nav-opac {
+        opacity: 0;
+    }
+
+    .smallTextContainer {
+        margin: 1vh 0 0 0;
+    }
+
+    .container1 {
+        position: static;
+    }
+
+    .smallText {
+        width: 82vw;
+        padding: 0;
+        font-size: 1.3rem
+    }
+    
+    
+    /* ----------------- Container 2 ---------------------- */
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 14vh 0 0 0;
+    }
+    
+    .headTextC2 {
+        display: flex;
+        width: 80vw;
+        justify-content: center;
+    }
+    
+    .headText2White {
+        font-size: 2em;
+    }
+    
+    .headText2Violet {
+        font-size: 2em;
+        
+    }
+    
+    .smallContainer {
+        
+        width: 80vw;
+        
+        
+    }
+    
+    .smallText2 {
+        width: 80vw;
+    }
+    
+    .smallText2Bold {
+        width: auto;
+    }
+    
+    .imageC2 img {
+        margin: 0vh 0 8vh 0;
+    }
+    
+    .imageC2 {
+        height: auto;
+        width: auto;
+    }
+    
+    
+    /* ----------------- CONTAINER 3 ---------------- */
+    .container3 {
+        flex-direction: column-reverse;
+    }
+    
+    .imageC3 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .smallText2BoldVoilet {
+        width: 80vw;
+    }
+    
+    .smallContainerC3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* ------------------ COPYRIGHT TEXT ------------------ */
+
+    .copyrightText {
+        margin: 3vh 6vh;
+    }
+
+    .mini1 {
+        margin: 0 10vw 0 0;
+    }
+
+    .mini2 {
+        margin: 0 10vw 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .burger {
+        display: block;
+    }
+
+    .line {
+        display: block;
+    }
+    
+    .navbarResp {
+        height: 70vh;
+        position: fixed;
+        width: 100%;
+    }
+
+    .navLogo img {
+        width: auto;
+    }
+
+    .h-nav {
+        height: 8vh;
+    }
+
+    .nav-opac {
+        opacity: 0;
+    }
+
+
+
+    /* ---------------- MIDDLE SECTION -------------- */
+
+    .container1 {
+        position: relative;
+    }
+
+    .headTextC2 {
+        flex-direction: column;
+        justify-content: normal;
+    }
+    
+    .headText1 {
+        font-size: 3em;
+    }
+    
+    .headText2 {
+        font-size: 3em;
+    }
+    
+    .headText3 {
+        font-size: 3em;
+    }
+    
+    .smallText {
+        width: 90vw;
+        font-size: 1em;
+    }
+    
+    .headTextContainer {
+        margin: 42vh 0 0 0;
+    }
+    
+    .imageC2 img {
+        width: 75vw;
+    }
+    
+    .imageC3 img {
+        width: 75vw;
+    }
+
+    .col1 img {
+        width: 18vw;
+    }
+
+    .col2 img {
+        width: 16vw;
+    }
+
+    /* ---------------- FOOTER ------------ */
+    #footerImage img {
+        height: 8vh;
+        padding: 0px;
+    }
+    
+    .copyrightText {
+        font-size: 0.7em;
+    }
+    
+    .mini1 ul li a {
+        font-size: 0.7em;
+    }
+    
+    .mini2 ul li a {
+        font-size: 0.7em;
+    }
+    
+    .mini1 {
+        margin: 0 6vw 0 0;
+    }
+    
+    .mini2 {
+        margin: 0 3vw 0 0;
+    }
+
+    .copyrightText {
+        margin: 3vh 3vw;
+        width: 40vw;
+    }
+
+
+}

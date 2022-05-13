@@ -1,0 +1,454 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* ----------------- NAV BAR -------------------- */
+
+.navbar {
+
+    text-align: right;
+    background: black;
+    height: 13vh;
+}
+
+.navLogo img {
+
+    display: inline-block;
+    height: 4vh;
+    width: 15vw;
+    margin: 4vh 25vw 0 0;
+    
+}
+
+.navLogo img:hover {
+
+    cursor: pointer;
+
+}
+
+.navLogo {
+    display: inline-block;
+}
+
+.navbar ul {
+
+    display: inline-block;
+}
+
+.navbar ul li {
+    
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3vh 1vw;
+    
+}
+
+
+.navbar ul li a {
+    
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 2vh 0vw;
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: 'Baloo Tammudu 2', cursive;
+    
+    
+}
+
+.navbar ul li a:hover {
+    
+    color: #0d6efd;
+    
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 1vh;
+    right: 2vw;
+}
+
+.line {
+    width: 4vw;
+    height: 0.6vh;
+    background-color: white;
+    margin: 0.8vh 0 0 0;
+}
+
+/*--------------------- MAIN CONTAINER--------------------- */
+
+mainContainer {
+
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* ---------------- Container 1 --------------------- */
+
+
+.container1::before {
+    
+    background: url(/images/mockup/wall.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    content: '';
+    z-index: -111;
+    opacity: 1.9;
+    
+}
+
+.container1 {
+    height: 87vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+}
+
+.headTextContainer {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 27vh 0 0 0;
+
+}
+
+.smallTextContainer {
+
+    display: flex;
+    justify-content: center;
+    margin: 7vh 0 0 0;
+
+}
+
+
+
+.headText1 {
+    
+    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-family: 'Orelega One', cursive;
+    font-size: 5em;
+    text-align: center;
+    line-height: 0.8em;
+    display: inline-block;
+   
+}
+
+.headText2 {
+    
+    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-family: 'Orelega One', cursive;
+    font-size: 5em;
+    text-align: center;
+    line-height: 0.8em;
+    
+}
+
+.headText3 {
+    
+    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-fill-color: rgb(187, 57, 216);
+    color: black;
+    font-family: 'Orelega One', cursive;
+    font-size: 5em;
+    text-align: center;
+    line-height: 0.8em;
+
+}
+
+
+.smallText{
+    width: 55vw;
+    height: auto;
+    padding: 10px;
+    /* margin: 8vh auto 0 auto; */
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: 2px solid black;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+/* ---------------------- CONTAINER 2 ------------------ */
+
+.container2 {
+
+    height: 100vh;
+    width: 100vh;
+    margin: 20vh 0 0 0;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+   
+}
+
+
+.imageC2 {
+    
+    display: inline-block;
+    height: 30vh;
+    width: 40vw;
+}
+
+.imageC2 img {
+    
+    margin: 15vh 4vw 0 4vw;
+    height: 30vh;
+    width: 40vw;
+    border: 5px solid violet;
+    
+}
+
+.headText2White {
+    
+    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Orelega One', cursive;
+    font-size: 4em;
+    text-align: left;
+    margin: 0 2vw 0 3vw;
+    line-height: 1em;
+}
+
+.headText2Violet {
+    
+    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-fill-color: rgb(187, 57, 216);
+    color: black;
+    font-family: 'Orelega One', cursive;
+    font-size: 4em;
+    text-align: left;
+    margin: 0 2vw 0 3vw;
+    line-height: 1em;
+}
+
+.smallContainer {
+    display: inline-block;
+    height: 70%;
+    width: 49vw;
+}
+
+
+.smallText2{
+    width: 44vw;
+    height: auto;
+    margin: 4vh 0 0 3vw;
+    text-align: left;
+    font-size: 1.2em;
+    font-family: 'Baloo Chettan 2', cursive;
+    display: inline-block;
+
+}
+
+.smallText2Bold{
+    width: 44vw;
+    height: 15vh;
+    margin: 4vh 0 0 3vw;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;   
+    font-family: 'Baloo Chettan 2', cursive;
+    display: inline-block;
+
+}
+
+
+
+
+
+/* ----------------- CONTAINER 3 ------------------ */
+
+.container3 {
+    display: flex;
+    height: auto;
+    margin: 10vh 0 0 0;
+}
+
+.smallText2BoldVoilet {
+    
+    width: 44vw;
+    height: auto;
+    margin: 4vh 0 0 3vw;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Baloo Chettan 2', cursive;
+    display: inline-block;
+    color: rgb(187, 57, 216);
+}
+
+.imageC3 img {
+    
+    margin: 8vh 2vw;
+    height: 50vh;
+    width: 45vw;
+    
+}
+
+button {
+    border-radius: 15px;
+    font-size: 0.9em;
+    padding: 2vh 1vw;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 2vh 0 0 5vw;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+button:hover {
+
+    background-color: rgb(221, 139, 240);
+    color: black;
+    font-weight: 700;
+
+}
+
+
+/* --------------- CONTAINER 4 ------------------ */
+
+.headC4 {
+    display: flex;
+    justify-content: center;
+    margin: 10vh 0 0 0;
+}
+
+.col1 {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh 0 6vh 0;
+
+}
+
+.col1 img {
+
+    height: 8vh;
+    width: 11vw;
+
+}
+
+.col2 {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 6vh 0 12vh 0;
+
+}
+
+.col2 img {
+
+    height: 10vh;
+    width: 12vw;
+
+}
+
+
+
+
+/* --------------------- FOOTER -------------------- */
+
+footer {
+    
+    background-color: black;
+    height: auto;
+    display: flex;
+    
+}
+
+
+#footerImage img {
+    height: 25vh;
+    width: 40vw;
+    padding: 4vh 4vw;
+    margin: 5vh 3vw;
+    display: inline-block;
+}
+
+.copyrightText {
+    
+    color: white;
+    margin: 3vh 17vh;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 1.3em;
+    display: inline-block;
+    
+}
+
+.leftSide {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.mini1 {
+    margin: 0 15vw 0 0;
+}
+
+.mini1 ul li {
+    
+    list-style: none;
+    margin: 3vh 0 3vh 0;
+    
+}
+
+.mini1 ul li a {
+    
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+
+
+.mini2 ul li {
+    
+    list-style: none;
+    margin: 3vh 0 3vh 0;
+    
+}
+
+.mini2 ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+
+.visibility {
+    display: none;
+}
