@@ -331,6 +331,11 @@ button:hover {
 
 }
 
+button a {
+    text-decoration: none;
+    color: white;
+}
+
 
 /* --------------- CONTAINER 4 ------------------ */
 
